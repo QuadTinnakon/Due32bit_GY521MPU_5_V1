@@ -44,7 +44,7 @@ A8 = PPM 8 CH
 void setup() {
   Serial.begin(57600);//115200
   //Serial1.begin(57600);
-  Serial.print("Due32bit_GY521MPU_5_V1");Serial.println("\n");
+  Serial.print("Due32bit_GY521MPU_5_V1XXX");Serial.println("\n");
   GPS_multiInt();
   pinMode(13, OUTPUT);//pinMode (30, OUTPUT);pinMode (31, OUTPUT);//pinMode (30, OUTPUT);pinMode (31, OUTPUT);//(13=A=M),(31=B=STABLEPIN),(30=C,GPS FIG LEDPIN)
   pinMode(12, OUTPUT);
